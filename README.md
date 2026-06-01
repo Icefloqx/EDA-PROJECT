@@ -15,7 +15,7 @@ This project presents a comprehensive exploratory data analysis of Kenya's devel
 
 ---
 
-## 📸 Preview
+##  Preview
 
 | Economy & GDP | Health & Demographics |
 |:-:|:-:|
@@ -29,7 +29,7 @@ This project presents a comprehensive exploratory data analysis of Kenya's devel
 
 ---
 
-## 📂 Project structure
+##  Project structure
 
 ```
 kenya-wdi-eda/
@@ -41,7 +41,7 @@ kenya-wdi-eda/
 
 ---
 
-## 🗂️ Dataset
+##  Dataset
 
 | Attribute | Details |
 |---|---|
@@ -57,7 +57,7 @@ The dataset follows the standard World Bank WDI structure: rows are indicators, 
 
 ---
 
-## 📖 Notebook structure
+##  Notebook structure
 
 The notebook is organised into **9 sections**, designed to tell a coherent story from data quality through to cross-theme insights.
 
@@ -113,26 +113,26 @@ The notebook is organised into **9 sections**, designed to tell a coherent story
 
 ---
 
-## 💡 Key findings
+##  Key findings
 
-### 📈 Economic growth
+###  Economic growth
 Kenya's nominal GDP grew **130× from $0.8B (1960) to $107B (2023)**. The 2000s were the strongest decade for growth. The only contraction in recent history came in **2020 (-0.3%)** due to COVID-19, followed by a sharp 7.6% rebound in 2021. Inflation moderated to ~4.5% by 2024 after years above 6%.
 
-### ❤️ Health progress
+###  Health progress
 Life expectancy improved from **48.5 to 63.6 years** — remarkable given a notable dip in the 1990s–early 2000s attributable to the HIV/AIDS epidemic. Infant mortality fell from ~120 to under 30 per 1,000 live births. The narrowing birth–death rate gap signals a **demographic transition** underway.
 
-### 📚 Education
+###  Education
 Primary enrollment approaches **universal coverage (~98%)**, with gender parity largely achieved at that level. Secondary and tertiary enrollment remain areas of growth opportunity, particularly for girls at secondary level in earlier decades.
 
-### 🌍 Trade
+###  Trade
 Kenya consistently runs a **trade deficit**, with imports exceeding exports as a share of GDP. Food dominates merchandise exports, though manufactured goods are slowly rising as a share — a signal of early industrial diversification.
 
-### 📱 Digital leap
+###  Digital leap
 Kenya's **mobile subscription rate of 126 per 100 people** (2024) reflects widespread multi-SIM adoption and is one of Africa's standout digital stories. Internet users grew from near-zero to **38% by 2024**, underpinning the fintech and digital economy revolution (M-Pesa, etc.). Fixed broadband remains low — mobile-first internet access dominates.
 
 ---
 
-## 🚀 Getting started
+##  Getting started
 
 ### Option A — Google Colab (recommended)
 
@@ -156,7 +156,7 @@ jupyter notebook kenya_wdi_eda.ipynb
 
 ---
 
-## 🛠️ Dependencies
+##  Dependencies
 
 | Library | Version | Purpose |
 |---|---|---|
@@ -173,7 +173,7 @@ pip install pandas numpy matplotlib seaborn
 
 ---
 
-## 🔭 Possible extensions
+##  Possible extensions
 
 This EDA is designed as a foundation. Here are directions to take it further:
 
@@ -186,7 +186,7 @@ This EDA is designed as a foundation. Here are directions to take it further:
 
 ---
 
-## 📊 Data notes
+##  Data notes
 
 - **Wide format:** Years are column headers; the notebook reshapes these into time series on the fly via `get_series()`.
 - **Missing values:** Early years (pre-1980) have sparser coverage for social indicators. The notebook handles `NaN` gracefully — `dropna()` is applied before plotting.
@@ -195,17 +195,9 @@ This EDA is designed as a foundation. Here are directions to take it further:
 
 ---
 
-## 📜 License
+##  License
 
 This project is released under the [MIT License](LICENSE). The underlying dataset is published by the World Bank under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
-
----
-
-## 🙏 Acknowledgements
-
-- **[The World Bank](https://www.worldbank.org)** for maintaining and freely publishing the World Development Indicators dataset
-- **[Kenya National Bureau of Statistics](https://www.knbs.or.ke)** for contributing national data to the WDI
-- The open-source Python data science ecosystem: pandas, matplotlib, seaborn, NumPy
 
 ---
 
