@@ -37,7 +37,6 @@ kenya-wdi-eda/
 ├── kenya_wdi_eda.ipynb              # Main EDA notebook
 ├── API_KEN_DS2_en_csv_v2_5938.csv  # World Bank WDI dataset (Kenya)
 ├── README.md                        # This file
-└── requirements.txt                 # Python dependencies (optional)
 ```
 
 ---
@@ -150,9 +149,6 @@ Kenya's **mobile subscription rate of 126 per 100 people** (2024) reflects wides
 # Clone or download the project
 git clone https://github.com/your-username/kenya-wdi-eda.git
 cd kenya-wdi-eda
-
-# Install dependencies
-pip install -r requirements.txt
 
 # Launch Jupyter
 jupyter notebook kenya_wdi_eda.ipynb
